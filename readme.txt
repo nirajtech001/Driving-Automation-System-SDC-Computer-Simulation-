@@ -5,7 +5,7 @@ Manual Installation Language & Libreries - Python 3.8, Udacity Simulator Setup, 
 
 About Model Training File
 Open Model_training_source_code file in Google Colab or Jupyter Notebook
-Dataset Used in this model from github link https://github.com/nirajtech001/Track1.git
+Dataset Used in this model from github link https://github.com/nirajsoft01/Track1.git
 
 Step 1- in Command Prompt open project source file
 Step 2- Setup the Virtual Environment 
