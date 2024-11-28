@@ -1,4 +1,6 @@
----
+
+
+```markdown
 # Behavioral Cloning for Driving Automation System
 
 This project demonstrates the development of a self-driving car simulation using a Convolutional Neural Network (CNN) to mimic human driving behavior. The model utilizes Computer Vision techniques for real-time image processing and decision-making, enabling autonomous navigation in a simulated environment.
@@ -80,9 +82,7 @@ The CNN model is based on NVIDIA's architecture for autonomous driving:
 - Convolutional and pooling layers extract features.
 - Fully connected layers output the steering angle.
 
-
 ## Results
-
 - Successfully navigated through multiple tracks in the simulator.
 - Demonstrated generalization by driving smoothly on unseen tracks.
 
@@ -92,6 +92,14 @@ The CNN model is based on NVIDIA's architecture for autonomous driving:
 - Enhanced decision-making algorithms for complex driving scenarios.
 
 ## Acknowledgements
-**Rayan Slim** for providing the foundational knowledge through their Applied Deep Learning courses.
+- Udemy and **Rayan Slim** for providing the foundational knowledge through their courses.
+- Project mentor **Er. Akanksha Yadav** for guidance and support.
 
 ---
+
+**Contributors**:  
+- **Niraj**: Data preprocessing, CNN network development, and simulator integration.  
+- **Pranjal**, **Priyanshu**, **Dharmendra**: Supporting roles in model training, testing, and documentation.
+```
+
+Let me know if there are other aspects you'd like to emphasize!
