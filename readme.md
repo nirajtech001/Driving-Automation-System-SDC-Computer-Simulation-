@@ -91,10 +91,6 @@ Before running the project, ensure you have the following installed:
 8. Once connected successfully, observe and experience the driving automation technology in action!
 
 ---
-
-Enjoy exploring the advancements in Behavioral Cloning and autonomous navigation!
-```
-
 ## Usage
 1. **Data Collection**: Use the simulator in training mode to collect images and steering angles. Save the data for preprocessing.
 2. **Model Training**: Train the CNN model using the collected dataset.
