@@ -1,6 +1,4 @@
 
-
-```markdown
 # Behavioral Cloning for Driving Automation System
 
 This project demonstrates the development of a self-driving car simulation using a Convolutional Neural Network (CNN) to mimic human driving behavior. The model utilizes Computer Vision techniques for real-time image processing and decision-making, enabling autonomous navigation in a simulated environment.
