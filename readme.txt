@@ -1,4 +1,4 @@
-
+---
 # Behavioral Cloning for Driving Automation System
 
 This project demonstrates the development of a self-driving car simulation using a Convolutional Neural Network (CNN) to mimic human driving behavior. The model utilizes Computer Vision techniques for real-time image processing and decision-making, enabling autonomous navigation in a simulated environment.
@@ -95,20 +95,3 @@ The CNN model is based on NVIDIA's architecture for autonomous driving:
 **Rayan Slim** for providing the foundational knowledge through their Applied Deep Learning courses.
 
 ---
-------------------------------------------------------------------
-Prerequisites:- 
-Manual Installation Language & Libreries - Python 3.8, Udacity Simulator Setup, Unity3D Engine, Tensorflow, Keras, OpenCV, Flask, NumPy, Socket.io, Eventlet
-
-About Model Training File
-Open Model_training_source_code file in Google Colab or Jupyter Notebook
-Dataset Used in this model from github link https://github.com/nirajtech001/Driving-Automation-System-SDC-Computer-Simulation-/tree/main/IMG
-
-Step 1- in Command Prompt open project source file
-Step 2- Setup the Virtual Environment 
-Step 3- Open Virtual Environment using command 'activate myenviron' 
-Step 4- In CMD Open drive file using command '[path] python drive.py'
-Step 4- Click on the Simulator 'Default Windows desktop 64-bit' 
-Step 5- Click on autonomous mode button in the simulator
-Step 6- Wait for Connect the Model to the Simulator
-Step 7- Simulator connected sucessfully, now watch and experience driving automation technology.
-
