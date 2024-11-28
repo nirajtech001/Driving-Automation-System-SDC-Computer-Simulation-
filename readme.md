@@ -47,21 +47,53 @@ The project demonstrates:
 - NVIDIA model architecture for CNN-based steering prediction.
 
 ## Installation
-1. Clone the repository:
+## Prerequisites
+Before running the project, ensure you have the following installed:
+- **Programming Language**: Python 3.8
+- **Libraries**:
+  - TensorFlow
+  - Keras
+  - OpenCV
+  - Flask
+  - NumPy
+  - Socket.io
+  - Eventlet
+- **Software**:
+  - Udacity Simulator
+  - Unity3D Engine
+
+---
+
+## Model Training
+- The model training code is available in the `Model_training_source_code` file, compatible with **Google Colab** or **Jupyter Notebook**.
+- Dataset used for training can be accessed from [this GitHub repository](https://github.com/nirajtech001/Driving-Automation-System-SDC-Computer-Simulation-/tree/main/IMG).
+
+---
+
+## Detailed Steps to Run the Simulator
+
+1. Open the project source file in Command Prompt.
+2. Set up the virtual environment:
    ```bash
-   git clone https://github.com/your-repository-url.git
-   cd your-repository-folder
+   python -m venv myenviron
    ```
-2. Install dependencies:
+3. Activate the virtual environment:
    ```bash
-   pip install -r requirements.txt
+   activate myenviron
    ```
-3. Launch the simulator and Flask server:
-   - Start the Unity-based simulator in training mode.
-   - Run the Flask server:
-     ```bash
-     python app.py
-     ```
+4. Run the drive file:
+   ```bash
+   [path_to_drive_file] python drive.py
+   ```
+5. Launch the Udacity simulator and select the `Default Windows desktop 64-bit` option.
+6. Click the **Autonomous Mode** button in the simulator.
+7. Wait for the model to connect to the simulator.
+8. Once connected successfully, observe and experience the driving automation technology in action!
+
+---
+
+Enjoy exploring the advancements in Behavioral Cloning and autonomous navigation!
+```
 
 ## Usage
 1. **Data Collection**: Use the simulator in training mode to collect images and steering angles. Save the data for preprocessing.
@@ -102,24 +134,6 @@ The CNN model is based on NVIDIA's architecture for autonomous driving:
 -**Rayan Slim** for providing the foundational knowledge through their applied deep learning courses.
 
 
----
-------------------------------------------------------------------
-Prerequisites:- 
-Manual Installation Language & Libreries - Python 3.8, Udacity Simulator Setup, Unity3D Engine, Tensorflow, Keras, OpenCV, Flask, NumPy, Socket.io, Eventlet
 
-About Model Training File
-Model_training_source_code file in Google Colab or Jupyter Notebook
-Dataset Used in this model from github link https://github.com/nirajtech001/Driving-Automation-System-SDC-Computer-Simulation-/tree/main/IMG
-
-### Detailed Steps to Run the SImulator
-
-Step 1- in Command Prompt open project source file
-Step 2- Setup the Virtual Environment 
-Step 3- Open Virtual Environment using command 'activate myenviron' 
-Step 4- In CMD Open drive file using command '[path] python drive.py'
-Step 4- Click on the Simulator 'Default Windows desktop 64-bit' 
-Step 5- Click on autonomous mode button in the simulator
-Step 6- Wait for Connect the Model to the Simulator
-Step 7- Simulator connected sucessfully, now watch and experience driving automation technology.
 
 
