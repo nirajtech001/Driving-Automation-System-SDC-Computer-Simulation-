@@ -81,7 +81,6 @@ The dataset consists of images captured from three camera views (left, center, r
 
 ## Model Architecture
 The CNN model is based on NVIDIA's architecture for autonomous driving:
-![image](https://github.com/user-attachments/assets/d4b678ad-bfdd-433a-b2b3-664a7c84c682)
 ![image](https://github.com/user-attachments/assets/a68262d7-410d-4bc1-9e04-9a06ea8a4f4c)
 
 - Input layer processes 66x200 RGB images converted to YUV color space.
